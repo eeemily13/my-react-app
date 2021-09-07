@@ -80,28 +80,9 @@ generateRandomQuote() {
 
 };
 
-mixedMessagesFuturama.addQuoteToMessage('familyQuotes','We’re trying to give you the Christmas spirit, dickhole! ', 'Sweet Dee');
-mixedMessagesFuturama.addQuoteToMessage('familyQuotes', '[Reading a note from Charlie] Taked baby. Meet at later bar, night or day sometime.', 'Sweet Dee');
-mixedMessagesFuturama.addQuoteToMessage('familyQuotes', 'Yeah, well, you’ve never once seen me wash my testicles either, but that doesn’t mean I don’t do it every Friday. ', 'Charlie');
-mixedMessagesFuturama.addQuoteToMessage('familyQuotes','Animals should be food, rugs and trophies. Why do you think I’m wearing a leather suit?  ', 'Frank');
-mixedMessagesFuturama.addQuoteToMessage('familyQuotes', 'I’m not asking you to do much. Just turn a blind eye while I rob this place stupid.', 'Sweet Dee');
-
-mixedMessagesFuturama.addQuoteToMessage('familyQuotes','Do not plug an open wound with trash. ', 'Mac');
-mixedMessagesFuturama.addQuoteToMessage('familyQuotes','We’re trying to give you the Christmas spirit, dickhole! ', 'Sweet Dee');
-mixedMessagesFuturama.addQuoteToMessage('familyQuotes','We’re trying to give you the Christmas spirit, dickhole! ', 'Sweet Dee');
-
-mixedMessagesFuturama.addQuoteToMessage('hardworkQuotes', 'Cat in the wall. Now you’re talking my language.', 'Charlie');
-mixedMessagesFuturama.addQuoteToMessage('hardworkQuotes', 'Mac, I’m gonna stop you right there. First of all, your breath smells like an old lady fart passing through an onion.', 'Sweet Dee');
-mixedMessagesFuturama.addQuoteToMessage('hardworkQuotes', 'Then, I’ll just regress, because I feel I made myself perfectly redundant.', 'Charlie');
-mixedMessagesFuturama.addQuoteToMessage('hardworkQuotes', 'Charlie, make a move. Just tell her you wanna bang her', 'Mac');
-mixedMessagesFuturama.addQuoteToMessage('hardworkQuotes', ' The acid’s makin’ me feel like I gotta take a dump.', 'Frank');
-mixedMessagesFuturama.addQuoteToMessage('hardworkQuotes', ' RUM HAM! RUM HAM! I’m sorry rum ham! I’m sorry…', 'Frank');
-mixedMessagesFuturama.addQuoteToMessage('hardworkQuotes', 'Well, I don’t know how many years on this Earth I got left. I’m gonna get real weird with it. ', 'Frank');
+mixedMessagesFuturama.addQuoteToMessage('fry', 'Valentine’s Day is coming? Oh crap – I forgot to get a girlfriend again.', 'Fry');
 
 
-mixedMessagesFuturama.addQuoteToMessage('lookingForwardQuotes', 'Dude, do you have a boner right now?', 'Dennis');
-mixedMessagesFuturama.addQuoteToMessage('lookingForwardQuotes', 'Name’s Artemis. I have a bleached asshole.', 'Artemis');
-mixedMessagesFuturama.addQuoteToMessage('lookingForwardQuotes', 'Smoke some cigarettes. The smoke will suffocate the bacteria in your stomach. ', 'Mac');
-mixedMessagesFuturama.addQuoteToMessage('lookingForwardQuotes', '[Reading Charlie’s script] “Hello fellow American. This you should vote me. I leave power. Good. Thank you. Thank you. If you vote me, I’m hot.” What? “Taxes. They’ll be lower. Son. The democratic vote for me is right thing to do, Philadelphia. So do.” ', 'Dennis');
+
 const ItsAlwaysSunny = mixedMessagesFuturama.generateRandomQuote();
 console.log(ItsAlwaysSunny)
