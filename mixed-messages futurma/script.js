@@ -25,7 +25,7 @@ const mixedMessagesFuturama = {
     },
     set leelaQuotes(leelaQuotes){
         this._quotes.leelaQuotes;
-    }
+    },
     get drZoidbergQuotes () {
         return this._quotes.drZoidbergQuotes;
     },
@@ -44,13 +44,15 @@ const mixedMessagesFuturama = {
     set professorQuotes(professorQuotes){
         this._quotes.professorQuotes;
     },
-
-get quotes (){
+get newQuotes (){
     return {
-        familyQuotes: this.familyQuotes,
-        hardworkQuotes: this.hardworkQuotes,
-        lookingForwardQuotes: this.lookingForwardQuotes,
-    };
+        fryQuotes: this.fryQuotes,
+        benderQuotes: this.benderQuotes,
+        leelaQuotes: this.leelaQuotes,
+        drZoidbergQuotes: this.drZoidbergQuotes,
+        amyQuotes: this.amyQuotes,
+        professorQuotes: this.professorQuotes,
+    }
 },
 addQuoteToMessage(quoteType, quoteBody, authorName) { const quoteInfo = {
     body: quoteBody,
