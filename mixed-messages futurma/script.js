@@ -54,14 +54,14 @@ get newQuotes (){
         professorQuotes: this.professorQuotes,
     }
 },
-addQuoteToMessage(quoteType, quoteBody, authorName) { const quoteInfo = {
+addQuoteToMessage(personQuote, quoteBody, authorName) { const quoteInfo = {
     body: quoteBody,
     author: authorName,
 };
-return this._quotes[quoteType].push(quoteInfo)
+return this._quotes[personQuote].push(quoteInfo)
 },
-getRandomQuotefromMessage(quoteType){
-    const message = this._quotes[quoteType];
+getRandomQuotefromMessage(personQuote){
+    const message = this._quotes[personQuote];
     const randomQuote = Math.floor(Math.random() * message.length);
     return message[randomQuote];
 },
