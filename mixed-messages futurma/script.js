@@ -11,37 +11,37 @@ const mixedMessagesFuturama = {
     get fryQuotes () {
         return this._quotes.fryQuotes;
     },
-    set fryQuotes(fryQuotes){
+    set fryQuotes(_fryQuotes){
         this._quotes.fryQuotes;
     },
     get benderQuotes () {
         return this._quotes.benderQuotes;
     },
-    set benderQuotes (benderQuotes) {
+    set benderQuotes (_benderQuotes) {
         this._quotes.benderQuotes;
     },
     get leelaQuotes () {
         return this._quotes.leelaQuotes;
     },
-    set leelaQuotes(leelaQuotes){
+    set leelaQuotes(_leelaQuotes){
         this._quotes.leelaQuotes;
     },
     get drZoidbergQuotes () {
         return this._quotes.drZoidbergQuotes;
     },
-    set drZoidbergQuotes(drZoidbergQuotes){
+    set drZoidbergQuotes(_drZoidbergQuotes){
         this._quotes.drZoidbergQuotes;
     },
     get amyQuotes () {
         return this._quotes.amyQuotes;
     },
-    set amyQuotes(amyQuotes){
+    set amyQuotes(_amyQuotes){
         this._quotes.amyQuotes;
     },
     get professorQuotes () {
         return this._quotes.professorQuotes;
     },
-    set professorQuotes(professorQuotes){
+    set professorQuotes(_professorQuotes){
         this._quotes.professorQuotes;
     },
 get quotes (){
