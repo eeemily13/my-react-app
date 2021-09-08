@@ -62,7 +62,7 @@ return this._quotes[personQuote].push(quoteInfo)
 },
 getRandomQuotefromMessage(personQuote){
     const message = this._quotes[personQuote];
-    const randomQuote = Math.floor(Math.random() * message.length);
+    const randomQuote = Math.floor(Math.random()*2);
     return message[randomQuote];
 },
 generateRandomQuote() {
